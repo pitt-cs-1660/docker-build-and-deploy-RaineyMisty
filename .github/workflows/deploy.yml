@@ -33,7 +33,3 @@ jobs:
           docker build -t ${REPO_NAME}:latest .
           docker tag ${REPO_NAME}:latest ${IMAGE_URI}
           docker push ${IMAGE_URI}
-          # todo: replace this step with your docker build, tag, and push commands
-          # refer to docs/docker-commands.md for guidance on the required commands
-          echo "docker build, tag, and push commands not implemented"
-          exit 1
